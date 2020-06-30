@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const Routes = require('./models/routes')
 
 const port = process.env.PORT || 3333
-const ip = process.env.IP || 'localhost'
+const ip = process.env.IP 
 
 app.use(bodyParser.json())
 
