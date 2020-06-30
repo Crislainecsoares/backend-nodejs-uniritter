@@ -11,7 +11,6 @@ const campusSchema = mongoose.Schema({
 
 campusSchema.index({  campus: 1 });
 
-// module.exports = mongoose.model('cadastro', cadastroSchema);
 const Campus = mongoose.model('Campus', campusSchema );
 
 module.exports = Campus;
