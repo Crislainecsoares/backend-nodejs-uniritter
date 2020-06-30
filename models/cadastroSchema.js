@@ -28,7 +28,7 @@ cadastroSchema.pre('save', async function(next) {
     next();
 });
 
-// module.exports = mongoose.model('cadastro', cadastroSchema);
+
 const Aluno = mongoose.model('Aluno', cadastroSchema);
 
 
