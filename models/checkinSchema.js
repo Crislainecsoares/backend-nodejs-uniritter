@@ -16,7 +16,6 @@ const checkinSchema = mongoose.Schema({
 
 });
 
-// module.exports = mongoose.model('cadastro', cadastroSchema);
 const Checkin = mongoose.model('Checkin', checkinSchema);
 
 
